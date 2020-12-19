@@ -1,0 +1,72 @@
+body {
+     background-image: url("cover1.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+h1{
+     font-family:"verdana";
+	 color: white;
+	 font-size: 40px;
+	 padding-left:30px;
+}
+h5{
+	color:white;
+}
+
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 50px;
+    cursor: pointer;
+	font-family:verdana;
+    font-weight:bold;	
+}
+
+.ablock {
+  background-image: url("black.png");
+  background-position: center;
+  font-family: "comic sans ms";
+  margin: auto;
+  border: 3px solid white;
+  color: white;
+  max-width: 90%;
+  min-width: 90%;
+  
+  
+}
+
+
+.book{
+	margin: 5px 20px ;
+	opacity:1.0;
+}
+
+.book:hover{
+	opacity:0.6;
+}
+	
+
+.topissues{
+	font-family:"verdana";
+	font-style:italic;
+	margin: 30px 30px ;
+	opacity:1.0;
+}
+
+
+
+  
+

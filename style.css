@@ -1,0 +1,102 @@
+body {
+    background-image: url("walls.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.cover{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+}
+
+ul {
+    font-family: "Comic Sans Ms";
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+a {
+   font-family: "";
+   font-weight: bold;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 26px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: red;
+    background-color: gold;
+}
+
+.active {
+    background-color: red;
+}
+
+/*White block*/
+.ablock {
+  background-image: url("white.jpg");
+  background-position: center;
+  font-family: "verdana";
+  margin: auto;
+  border: 3px solid black;
+  color: black;
+  max-width: 90%;
+  min-width: 90%;
+  
+}
+.menufont {
+	font-family: "Verdana";
+}
+
+.link{ /*Comic book link*/
+  text-decoration: none;
+  font-family: "Comic Sans Ms";
+  font-size: 10px;
+  color: red;
+  margin-left: 20px;
+}
+
+.topissues {
+      margin-top: 10px;
+      margin-left: 5px;
+}
+
+.img1 {
+      border: 2px solid black;
+      margin-left: 40px;
+      margin-top: 20px;
+      max-width: 90px;
+      min-width: 90px;       
+}
+
+.img2 {
+      border: 2px solid black;
+      margin-left: 40px;
+      margin-top: 20px;
+      max-width: 90px;
+      min-width: 90px;
+}
+
+
+
+  
+
